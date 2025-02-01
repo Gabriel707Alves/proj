@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to right, rgb(245, 79, 79), rgb(124, 1, 1));
+  background-size: 500%;
+  animation: caixadagua 5s ease-in infinite alternate;
+}
+
+@keyframes caixadagua{
+  0%{
+    background-position: 0% 0%;
+  }
+
+  100%{
+    background-position: 100% 100%;
+  }
+}
